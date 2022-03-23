@@ -1,15 +1,14 @@
 $(document).ready(function() {
-  
-  $("h1").click(function() {
-    alert("This is a heading.");
+  $("button#hello").click(function() {
+    $("ul").prepend("<li>Hello</li>");
   });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
+  $("button#goodbye").click(function() {
+    $("ul").prepend("<li>Goodbye!</li>");
   });
 
-  $("img").click(function() {
-    alert("This is an image.");
+  $("button#stop").click(function() {
+    $("ul").prepend("<li>Stop copying me!</li>");
   });
 });
 
