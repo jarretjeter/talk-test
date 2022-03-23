@@ -19,6 +19,8 @@ $(document).ready(function() {
     $("ul#user").prepend("<li>Stop copying me!</li>");
     $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
   });
+
+  $("h1#green").css("background-color", "green");
 });
 
 
